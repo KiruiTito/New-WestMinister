@@ -1,0 +1,18 @@
+{
+  "history": [
+    {
+      "id": "Slide-History-1",
+      "title": "La Jarrie Church",
+      "alt": "Postcard",
+      "url": "/slides/history/photo-1.jpg"
+    }
+  ],
+  "home": [
+    {
+      "id": "Slide-Home-1",
+      "title": "La Jarrie Church",
+      "alt": "La Jarrie Church",
+      "url": "/slides/home/photo-1.jpg"
+    }
+  ]
+}

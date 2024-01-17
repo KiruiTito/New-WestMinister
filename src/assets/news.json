@@ -1,0 +1,38 @@
+[
+  {
+    "id": "n001",
+    "enable": "enable",
+    "title": "Donation to the Church",
+    "image": {
+      "id": "n001-i1",
+      "title": "Ancient Icon, Probably of Historical Origin",
+      "alt": "Ancient icon, probably of historical origin, depicting a meaningful scene.",
+      "url": "/news/Magnan.JPG"
+    },
+    "text": "<p>Generous donation from a member – showcasing an ancient icon, probably of historical origin, depicting a significant scene.<br/>This valuable piece is planned to be exhibited in the church, enhancing its cultural and spiritual atmosphere.</p>"
+  },
+  {
+    "id": "n002",
+    "enable": "enable",
+    "title": "Historic Artifact Finds Its Place",
+    "image": {
+      "id": "n002-i1",
+      "title": "A Significant Artifact Enhances the Church Entrance",
+      "alt": "A significant artifact has found its place at the entrance of the church.",
+      "url": "/news/benitier.JPG"
+    },
+    "text": "<p>A historic artifact, with roots dating back to the early days, has found its place at the entrance of the church, adding a touch of history and spirituality.<br/>Its placement at the entrance symbolizes its importance and significance to the congregation.</p>"
+  },
+  {
+    "id": "n003",
+    "enable": "enable",
+    "title": "The Arrival of a Special Painting",
+    "image": {
+      "id": "n003-i1",
+      "title": "Special Painting Installation",
+      "alt": "A special painting, created with care, has been installed in a prominent location within the church.",
+      "url": "/news/tableauSM.jpeg"
+    },
+    "text": "<p>A special painting, crafted by a talented member, has been installed in a significant location within the church. The effort and collaboration of dedicated individuals have made this installation possible, adding to the beauty and spirituality of the worship space.</p>"
+  }
+]

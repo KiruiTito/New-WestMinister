@@ -1,0 +1,69 @@
+[
+  {
+    "id": "A1",
+    "display": "enable",
+    "title": "Painting of Saint Madeleine",
+    "text": [
+      {
+        "id": "A1P1",
+        "paragraph": "<p>The Friends of Sainte Madeleine de La Jarrie Association has just acquired this painting of Mary Magdalene in the garden at the foot of Golgotha on Easter morning.<br>Throughout the centuries, painters have always sought to portray Mary Magdalene with opulent blonde hair and a long purple coat like an empress of desires. As depicted by a local artist, Louis Ernest Boisnard, in one of the canvases in the choir of the church in La Jarrie.<br>Here, on the contrary, this representation breaks with pictorial tradition.<br>With her dark, tousled, disheveled hair, the artist translates the distress of Mary Magdalene, who followed Christ to the foot of the cross and her separation, definitive in her belief, from Him.<br>This oil painting on a used wooden support, which gives this natural tone as a background, highlighting the harshness of life through its roughness and reflecting that of Mary Magdalene, combines vibrant colors and artistic expression of our time. It is the work of a woman, Caroline Fleury, both a musician and a painter, who chose to create a series of paintings on women of the Bible, and for Mary Magdalene, she captures this particular moment of Christ's words, 'Woman, why are you weeping?.'<br>With the memory and example of Mary Magdalene, whose life story can help those who, like herself, are in search of the ineffable, Caroline Fleury could not find a better model: the painter casts a piercing gaze on beings and seeks to express the inexpressible.<br>The story of Mary Magdalene is so surprising that it poses the problem of the modern woman. She is undoubtedly a heroine of our time.</p>"
+      }
+    ],
+    "images": [
+      {
+        "id": "A1I1",
+        "title": "'WOMAN, WHY ARE YOU WEEPING?'",
+        "alt": "Painting representing Saint Madeleine",
+        "url": "/realizations/painting.png"
+      }
+    ]
+  },
+  {
+    "id": "A2",
+    "display": "enable",
+    "title": "Four Kakemonos",
+    "text": [
+      {
+        "id": "A2P1",
+        "paragraph": "<p>Four kakemonos have been in place since November 2022 in the nave.<br>They present the bells that occupy the 12th-century porch-belfry to which visitors cannot have access.</p>"
+      }
+    ],
+    "images": [
+      {
+        "id": "A2I1",
+        "title": "The Four Kakemonos",
+        "alt": "Photo of the kakemonos",
+        "url": "/realizations/kakemonos.jpg"
+      }
+    ]
+  },
+  {
+    "id": "A3",
+    "display": "enable",
+    "title": "The Holy Water Font",
+    "text": [
+      {
+        "id": "A3P1",
+        "paragraph": "<p>The tithe-bénitier rested on a wooden column that did not ensure the stability of the 15th-century carved stone listed in the inventory of movable property of the communal church.<br>Set aside for safety reasons, this tithe for use as a holy water font has received a stone support base in tuffeau limestone and a pentagonal seat adorned with olive leaves.<br>The municipality ensures the coverage of this renovation.<br>The restored font will receive a basin composed of sandstone and black porcelain; these 2 clays are mixed to give it an aspect of marine flora.<br>The raw sandstone left by the artist and the irregular edge harmonize with the 15th-century stone.<br>Inside, the enamel covers part of the basin, thus retaining the water.</p>"
+      },
+      {
+        "id": "A3P2",
+        "paragraph": "<p>Donation to the parish of La Jarrie from <a href=https://www.terredaunis.com/ target=_blank>L’ATELIER TERRE D'AUNIS</a>, Aigrefeuille. Basin signed on the back.</p>"
+      }
+    ],
+    "images": [
+      {
+        "id": "A3I1",
+        "title": "The Holy Water Font",
+        "alt": "Photo of the holy water font",
+        "url": "/realizations/holy_water_font.jpg"
+      },
+      {
+        "id": "A3I2",
+        "title": "The New Basin",
+        "alt": "Photo of the new basin",
+        "url": "/realizations/basin_holy_water_font.jpg"
+      }
+    ]
+  }
+]

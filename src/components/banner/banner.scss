@@ -1,0 +1,207 @@
+@import "../../sass-utils/mixins.scss";
+@import "../../sass-utils/variables.scss";
+
+@keyframes float {
+  0% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(17%);
+  }
+  100% {
+    transform: translatey(25%);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translatey(-25%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
+
+.container-banner {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+  background: {
+    position: center;
+    size: cover;
+    repeat: no-repeat;
+    color: rgba($primary-color, 0.2);
+  }
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  &__textarea {
+    display: flex;
+    animation: fadein ease 2s forwards;
+
+    &__title {
+      text-align: center;
+    }
+  }
+}
+
+.l-banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: {
+    size: cover;
+    position: center;
+    repeat: no-repeat;
+  }
+  width: 100%;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  &__textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translatey(-25%);
+    opacity: 0;
+    animation: fadein ease 2s forwards;
+
+    &__title {
+      text-align: center;
+    }
+
+    &__subhead {
+      text-align: center;
+    }
+  }
+
+  &__down {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+    border-radius: 50%;
+    border: solid 3px $color-white;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    transform: translatey(-25%);
+    opacity: 0;
+    animation: fadein ease 2s forwards;
+
+    &__chevron {
+      height: 100%;
+      width: 100%;
+      color: $color-white;
+
+      & svg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  & :hover {
+    .l-banner {
+      &__down__chevron svg {
+        animation: float 700ms ease-in-out infinite;
+      }
+    }
+  }
+}
+
+@include desktop-layout {
+  .banner {
+    background-attachment: fixed;
+  }
+  .l-banner {
+    background-attachment: fixed;
+    align-items: center;
+    height: 800px;
+
+    &__textarea {
+      align-items: center;
+      width: 50%;
+      height: 50%;
+      border-radius: 10px;
+      background-color: rgba($light-color, 0.6);
+      box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+
+      &__title {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: solid 1px rgba($accent-color, 0.7);
+      }
+    }
+
+    &__down {
+      display: flex;
+    }
+  }
+
+  .banner {
+    &__textarea {
+      flex-direction: column;
+      justify-content: flex-end;
+
+      &__title {
+        color: $color-white;
+      }
+    }
+  }
+}
+
+@include mobile-layout {
+  .l-banner {
+    height: 400px;
+
+    &__textarea {
+      position: fixed;
+      height: $mobile-header-radius;
+      top: 0;
+      z-index: 4;
+      align-items: center;
+      margin: 0 70px 0 70px;
+
+      &__title {
+        color: $color-white;
+      }
+
+      &__subhead {
+        display: none;
+      }
+    }
+  }
+
+  .banner {
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+
+    &__textarea {
+      position: fixed;
+      height: $mobile-header-radius;
+      z-index: 4;
+      align-items: center;
+      margin: 0 70px 0 70px;
+
+      &__title {
+        color: $color-white;
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+@import "../../sass-utils/mixins.scss";
+@import "../../sass-utils/variables.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, $dark-color 0%, $primary-color 60%);
+  width: 100%;
+  z-index: 4;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+
+  &__logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: $desktop-header-radius;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    z-index: 2;
+  }
+}
+
+@include large-desktop-layout {
+  .header {
+    .btn--desktop {
+      top: 12px;
+      right: 20px;
+    }
+  }
+}
+
+@include small-desktop-layout {
+  .header {
+    .btn--desktop {
+      top: calc($desktop-header-radius + 12px);
+      right: 20px;
+    }
+  }
+}
+
+@include desktop-layout {
+  .header {
+    height: $desktop-header-radius;
+
+    &__logo {
+      width: 105px;
+      height: $desktop-header-radius;
+    }
+
+    .btn--donate {
+      position: absolute;
+    }
+  }
+}
+
+@include mobile-layout {
+  .header {
+    height: $mobile-header-radius;
+
+    &__logo {
+      width: 69px;
+      height: $mobile-header-radius;
+    }
+    .btn--desktop {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+/* church.scss */
+.church {
+  padding: 40px 0;
+   background-image:url('./Church.jpg') center/cover no-repeat;
+  color: #fff; /* Adjust text color to ensure readability */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.address,
+.service-hours,
+.services-offered,
+.contact {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

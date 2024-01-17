@@ -1,0 +1,57 @@
+@import "../../sass-utils/mixins.scss";
+@import "../../sass-utils/variables.scss";
+
+@include desktop-layout {
+  #about {
+    flex-direction: column;
+  }
+  
+  #About-A2 {
+    .article{
+      &__textarea{
+        position: relative;
+        &__sections div {
+          display: flex;
+          justify-content: space-around;
+  
+          .section {
+            width: 30%;
+
+            &__images {
+              position: absolute;
+              width: 300px;
+            }
+  
+            &__textarea {
+              justify-content: flex-start;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  #About-A2S1 {
+    margin-top: 0;
+
+    .section__images {
+      top: 20px;
+      right: 50px;
+    }
+  }
+  
+  #About-A2S2 {
+    margin-top: 300px;
+  }
+  
+  #About-A2S3 {
+    margin-top: 600px;
+
+    .section__images {
+      top: 765px;
+      left: 50px;
+    }
+  }
+
+}

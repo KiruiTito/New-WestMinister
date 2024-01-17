@@ -1,0 +1,72 @@
+[
+  {
+    "id": "About-A1",
+    "title": "Friends of Grace Ethiopian evangelical church",
+    "text": [
+      {
+        "id": "About-A1P1",
+        "paragraph": "<p>The association 'Friends of Grace Ethiopian evangelical church' aims to contribute to the enhancement and maintenance of the church in the community.</p><br/><br/><ul><li><p>It serves as a tool to carry out restoration work on this communal heritage in coordination with the church leadership and the local community.</p></li><br/><li><p>The association's mission includes promoting the protection of furniture, whether listed in the inventory of historical significance or not. It also involves renovation or replacement initiatives in collaboration with the church leadership.</p></li><br/><li><p>[Your SDA Church Name] also positions itself as a source of ideas and proposes initiatives for significant renovations of the property. All projects require the support of the local community and approval from the church leadership.</p></li></ul><br/><br/><p>All these projects can only be realized with the support of the local community and with the approval of the Church leadership.</p>"
+      }
+    ],
+    "images": [],
+    "section": []
+  },
+  {
+    "id": "About-A2",
+    "title": "Three Principles as a Guide for Action",
+    "text": [],
+    "images": [],
+    "section": [
+      {
+        "id": "About-A2S1",
+        "display": "enable",
+        "title": "Faithful Living Principle",
+        "text": [
+          {
+            "id": "About-A2S1P1",
+            "paragraph": "<p>Grace Ethiopian evangelical church emphasizes a commitment to faithful living, respecting the heritage of the past while embracing a vibrant present. It focuses on spiritual beauty accessible to everyone, symbolizing the transition from history to a living present.</p>"
+          }
+        ],
+        "images": [
+          {
+            "id": "About-A2S1I1",
+            "url": "/About/photo-2.jpeg",
+            "title": "Members Engaging in Worship",
+            "alt": "Members Engaging in Worship"
+          }
+        ]
+      },
+      {
+        "id": "About-A2S2",
+        "display": "enable",
+        "title": "Architectural Principle",
+        "text": [
+          {
+            "id": "About-A2S2P1",
+            "paragraph": "<p> Grace Ethiopian evangelical church follows an architectural principle emphasizing the use of light as both an architectural and theological component. The journey from entrance to altar symbolizes the believer's progression from shadow to light, enriching the worship experience.</p>"
+          }
+        ],
+        "images": []
+      },
+      {
+        "id": "About-A2S3",
+        "display": "enable",
+        "title": "Worship Experience Principles",
+        "text": [
+          {
+            "id": "About-A2S3P1",
+            "paragraph": "<p>From the entrance to the worship area, Grace Ethiopian evangelical church creates spaces for fellowship, dialogue, and cultural enrichment. The layout encourages believers and non-believers to engage with various elements, from stained glass to Stations of the Cross, fostering a meaningful worship experience.</p>"
+          }
+        ],
+        "images": [
+          {
+            "id": "About-A2S3I1",
+            "url": "/About/photo-3.jpeg",
+            "title": "Stained Glass",
+            "alt": "Stained Glass"
+          }
+        ]
+      }
+    ]
+  }
+]

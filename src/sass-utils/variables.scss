@@ -1,0 +1,29 @@
+$primary-color: #90cab4;
+$secondary-color: #d1ddd8;
+$accent-color: #e2832b;
+$dark-color: #3ca07a;
+$light-color: #cbe6dc;
+$color-white: #fff;
+$color-black: #333a37;
+
+$desktop-header-radius: 75px;
+$mobile-header-radius: 50px;
+$tablet-header-radius: 50px;
+
+$body: Arial, Helvetica, sans-serif;
+$titles: "Fjord One", serif;
+$special: "Abril Fatface", serif;
+
+$numDots: 3;
+$parentBase: calc(1 / $numDots);
+$parentWidth: $parentBase * 100vw;
+$parentHeight: $parentBase * 70vh;
+$parentMaxWidth: 1224px;
+$parentMaxHeight: 70vh;
+$dotWidth: 25px;
+$active: $dark-color;
+$inactive: $light-color;
+
+$raised: 5000;
+$goal: 18000;
+$ratioRaised: calc($raised/$goal);

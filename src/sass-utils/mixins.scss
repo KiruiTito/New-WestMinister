@@ -1,0 +1,64 @@
+@mixin mobile-layout {
+  @media only screen and (max-device-width: 768px) {
+    @content;
+  }
+}
+@mixin tablet-layout {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+    @content;
+  }
+}
+
+@mixin small-desktop-layout {
+  @media only screen and (min-width: 992px) and (max-width: 1224px) {
+    @content;
+  }
+}
+
+@mixin large-desktop-layout {
+  @media only screen and (min-width: 1224px) {
+    @content;
+  }
+}
+
+@mixin desktop-layout {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin btn--donate {
+  text-decoration: none;
+  background: $accent-color;
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+
+  .icon {
+    border-left: 1px solid darken($accent-color, 5%);
+    color: darken($accent-color, 10%);
+    font-size: 20px;
+    padding: 10px 0;
+    padding-left: 15px;
+    position: absolute;
+    right: 16px;
+    top: 7px;
+    -webkit-transition: all 600ms 200ms;
+    transition: all 600ms 200ms;
+  }
+
+  &:hover {
+    background-position: -100% 0;
+
+    .icon {
+      border-left: 1px solid lighten($accent-color, 5%);
+      color: #fff;
+      text-shadow: 0 0 10px #000;
+    }
+  }
+}
