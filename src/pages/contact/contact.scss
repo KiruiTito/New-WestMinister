@@ -1,34 +1,35 @@
 @import "../../sass-utils/mixins.scss";
 @import "../../sass-utils/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* ContactPage.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif !important;
   background-color: #f3f3f3;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  margin-top: 5%;
-}
+// .container {
+//   max-width: 800px;
+//   margin: 0 auto;
+//   background-color: #fff;
+//   border-radius: 8px;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//   display: flex;
+//   margin-top: 5%;
+// }
 
-.column {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+// .column {
+//   flex: 1;
+//   padding: 20px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   text-align: center;
+// }
 
 .column:nth-child(2) {
   background-image: url('https://img.freepik.com/premium-photo/contact-us-business-icon-computer-keyboard-with-globe_117856-2468.jpg');
@@ -44,54 +45,54 @@ h2 {
   margin-bottom: 20px;
 }
 
-.custom-label {
-  font-weight: bold;
-  text-align: right;
-  /* Adjust text alignment as desired */
-}
+// .custom-label {
+//   font-weight: bold;
+//   text-align: right;
+//   /* Adjust text alignment as desired */
+// }
 
-input,
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
+// input,
+// textarea {
+//   width: 100%;
+//   padding: 10px;
+//   margin-bottom: 20px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+// }
 
-button {
-  background-color: #007BFF;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+// button {
+//   background-color: #007BFF;
+//   color: #fff;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }
 
 button:hover {
   background-color: #0056b3;
 }
 
-/* Add styles for icons */
+// /* Add styles for icons */
 .icon {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-/* Style the contact information in the second column */
+// /* Style the contact information in the second column */
 .contact-info {
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
+// @media (max-width: 768px) {
+//   .container {
+//     flex-direction: column;
+//   }
 
-  .column {
-    width: 100%;
-    border-left: none;
-    padding: 10px;
-  }
-}
+//   .column {
+//     width: 100%;
+//     border-left: none;
+//     padding: 10px;
+//   }
+// }
