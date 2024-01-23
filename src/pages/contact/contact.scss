@@ -11,24 +11,65 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.row{
   display: flex;
-  margin-top: 5%;
+  flex-wrap: wrap;
+
 }
 
-.column {
-  flex: 1;
-  padding: 20px;
+form{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  margin-top: 3rem; 
+  margin-bottom: 3rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 0rem;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 768px){
+  .col-md-7{
+    width: 40%;
+    padding: 0px 80px;
+  }
+
+  .col-md-5{
+    height: 410px;
+    min-width: 32%;
+    max-width: 35%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .col-12{
+    width: 100%;
+    min-height: fit-content;
+  }  
+
+  .column:nth-child(2){
+    height: 350px;
+  }
+
+  .col-12.first{
+    padding: 0px 20px;
+  }
 }
 
 .column:nth-child(2) {
@@ -37,19 +78,41 @@ body {
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.9);
   background-blur: 10px;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   /* Apply a slight blur to the background */
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
+p.first{
+  margin-top: 20px;
 }
 
-.custom-label {
-  font-weight: bold;
-  text-align: right;
-  /* Adjust text alignment as desired */
+p.last{
+  margin-top: 40px;
 }
+
+.column:nth-child(2) p{
+  margin-bottom: 7px;
+}
+
+.small{
+  font-size: 17px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+// .custom-label {
+//   font-weight: bold;
+//   text-align: right;
+//   /* Adjust text alignment as desired */
+// }
 
 input,
 textarea {
@@ -67,6 +130,12 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 300px;
+  font-size: 17px;
+}
+
+.text-white{
+  color: white;
 }
 
 button:hover {
