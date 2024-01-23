@@ -15,7 +15,7 @@ function Meta() {
   const location = useLocation();
   let path = location.pathname;
   let mainUrl = reduceUrl(path);
-  const end = " | Les Amis de Sainte Madeleine de La Jarrie";
+  const end = " |Grace Ethiopian Evangelical Church";
   let found = "";
 
   if (path === mainUrl || mainUrl === "/newsletter") {
