@@ -1,21 +1,40 @@
 [
   {
     "id": "nl001",
-    "title": "Newsletter No.1 - May 2023",
+    "title": "GEEC Church Newsletter",
     "image": {
       "id": "nl001-i1",
-      "title": "President of the Association, Philippe JEAN-JEAN",
-      "alt": "Portrait of the president of the association: Philippe JEAN-JEAN",
-      "url": "/newsletter/president.png"
+      "alt": "Image of the Grace SDA Church Building",
+      "url": "/newsletter/church-building.png"
     },
-    "text": "<p>Today, I would like to share with you all that you have allowed us to accomplish since the recent creation of our association and express my enthusiasm for everything we have done and will do in 2023/2024.<br/>Here is a brief overview:</p>",
+    "text": "<p>Dear Grace SDA Church Family,</p><p>We are delighted to bring you the latest updates and happenings in our vibrant church community. Here's a summary of what's been going on:</p>",
     "section": [
       {
         "id": "nl001-s1",
-        "title": "",
-        "text": "<p>With the initial financial means at our disposal, we designed, had composed, and printed four retractable and transportable posters - or banners - highlighting the exceptional communal heritage of the bells put back into service by the municipality.<br/><br/>In the 2nd quarter of 2023, the association's website, created in collaboration with volunteer developers, will be launched. We hope it will allow us to establish more frequent connections between everyone in the absence of being able to send you a periodic newsletter. This site includes a 'History' section that will be accessible and open to those who want to address a topic related to the church and its history over the years.<br/><br/>We will start this section with the year 1870, but we won't reveal more at this point.<br/><br/>When this letter reaches you, our painting of Mary Magdalene will be on the verge of being installed in the church. The acquisition of this contemporary figurative work was made possible through subscription and patronage. Here, we renew our thanks to the donors who contribute in this way to the embellishment and renovation of the church.<br/><br/>In November, we met with representatives of La Sauvegarde de l'Art Français. They asked us to submit our application to the Grand Heritage Competition Le Pèlerin 2023 for the restoration of the 18th-century altar-tomb. If this project is accepted, financial assistance will be added to the heritage investment of the municipality.<br/><br/>The most ambitious project of this year 2023-2024 will be the creation of a photographic Stations of the Cross by a Military Painter. It will represent, throughout the fourteen stations, a historical Christ and Virgin Mary surrounded by characters from our time. Its goal is to reveal the current events in the contemporary world of an event that happened 2,000 years ago.<br/><br/>It is an artistic project - black and white carbon print revealing a variety of gray tones for each unique, numbered proof - that will engage us in the coming months.</p>"
+        "title": "Worship Services",
+        "text": "<p>Our weekly worship services continue to be a source of inspiration and spiritual growth. Join us every Saturday at 11 AM as we come together to praise, worship, and study God's Word.</p>"
+      },
+      {
+        "id": "nl001-s2",
+        "title": "Community Outreach",
+        "text": "<p>We are actively involved in various community outreach programs to make a positive impact on those in need. Whether it's providing food, clothing, or support, our church is dedicated to serving the community.</p>"
+      },
+      {
+        "id": "nl001-s3",
+        "title": "Upcoming Events",
+        "text": "<p>Stay tuned for exciting upcoming events, including special guest speakers, workshops, and social gatherings. Check our bulletin and website for more details on dates and times.</p>"
+      },
+      {
+        "id": "nl001-s4",
+        "title": "Youth Ministry",
+        "text": "<p>Our youth ministry is thriving with activities designed to engage and inspire the younger members of our church. From Bible studies to fun outings, there's always something for our youth to participate in.</p>"
+      },
+      {
+        "id": "nl001-s5",
+        "title": "Giving Back",
+        "text": "<p>Your generous contributions make a significant impact on our ability to carry out the mission of the church. Consider giving back through tithes and offerings to support our ministries and outreach efforts.</p>"
       }
     ],
-    "conclusion": "<p>Thank you for associating with this 2023 program today by renewing your membership for most of you or by joining the Friends of Sainte Madeleine de La Jarrie Association.<br/><br/>Warm regards.</p>"
+    "conclusion": "<p>Thank you for being an integral part of our church family. Your presence and contributions make Grace SDA Church a vibrant and welcoming community. Let's continue to grow together in faith, love, and service.</p>"
   }
 ]

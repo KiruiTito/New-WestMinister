@@ -1,52 +1,52 @@
 @import "../../sass-utils/mixins.scss";
 @import "../../sass-utils/variables.scss";
 
+// Welcome Section
 #welcome {
   text-align: center;
-  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee,
-    3px 2px 1px #cccccc, 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee,
-    5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
-    7px 6px 1px #cccccc, -13px 22px 6px rgba(206, 89, 55, 0);
+  padding: $desktop-header-radius 10px 10px 10px;
+  font-size: 3.5rem;
 }
 
+// Home Section
 #home {
   article {
     text-align: justify;
     margin-bottom: 50px;
   }
 
+  // Gallery
   .gallery {
-    padding: 2px;
-    transition: 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 
-    &:hover .gallery__column__card__thumb__image {
-      filter: grayscale(1);
-    }
-
-    &__column {
+    .gallery__column {
+      flex: 1;
       display: flex;
       flex-direction: column;
+      gap: 10px;
 
-      &__card {
+      .gallery__column__card {
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 10px;
+        transition: filter 0.3s;
+
         &:hover {
           cursor: pointer;
-
-          .gallery__column__card__thumb__image {
-            filter: grayscale(0);
-          }
-
-          .gallery__column__card__thumb__caption {
-            opacity: 1;
-          }
+          filter: grayscale(0);
         }
 
-        &__thumb {
+        .gallery__column__card__thumb {
           position: relative;
+          overflow: hidden;
+          border-radius: 10px;
 
           &__image {
-            display: block;
             width: 100%;
-            transition: 0.3s;
+            height: auto;
+            transition: transform 0.3s;
 
             &:hover {
               transform: scale(1.2);
@@ -57,34 +57,33 @@
             position: absolute;
             bottom: 0;
             left: 50%;
-            transform: translatex(-50%);
-            padding: 25px 15px 15px;
+            transform: translateX(-50%);
+            padding: 15px;
             width: 100%;
             font-family: "Raleway", sans-serif;
             font-size: 16px;
             color: white;
             opacity: 0;
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-            transition: 0.3s;
+            transition: opacity 0.3s;
           }
         }
       }
     }
   }
 
+  // News Container
   .news-container {
     ul {
       flex-direction: column-reverse;
 
       & > li {
-
         .news {
           background-color: $secondary-color;
           justify-content: space-between;
-          margin: 20px 0 20px 0;
+          margin: 20px 0;
           overflow: hidden;
-          border-radius: 5px;
-          border: 12px groove $accent-color;
+          border-radius: 10px;
           box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
           &__image {
@@ -116,6 +115,7 @@
     }
   }
 
+  // Newsletter Container
   .newsletter-container {
     position: relative;
 
@@ -143,20 +143,26 @@
   }
 }
 
+// Desktop Layout
 @include desktop-layout {
+  // Welcome Section
   #welcome {
     padding: $desktop-header-radius 250px 0 250px;
     font-size: 3.5rem;
   }
 
+  // Home Section
   #home {
+    // Section Styles
     section {
       margin-top: 50px;
+
       p {
         margin-bottom: 40px;
       }
     }
 
+    // Gallery Styles
     .gallery {
       &__column {
         flex-direction: column;
@@ -165,6 +171,7 @@
         &__card {
           margin: 5px;
           overflow: hidden;
+
           &__thumb {
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
           }
@@ -172,6 +179,7 @@
       }
     }
 
+    // Title Styles
     .title {
       width: 100%;
       text-align: center;
@@ -181,6 +189,7 @@
       font-size: 40px;
     }
 
+    // News Container Styles
     .news-container {
       margin-top: 100px;
 
@@ -247,6 +256,7 @@
       }
     }
 
+    // Newsletter Container Styles
     .newsletter-container {
       flex-direction: column;
       align-items: center;
@@ -299,19 +309,24 @@
   }
 }
 
+// Larger Desktop Layout
 @include large-desktop-layout {
 }
 
+// Small Desktop Layout
 @include small-desktop-layout {
 }
 
+// Mobile Layout
 @include mobile-layout {
+  // Welcome Section
   #welcome {
     padding: $mobile-header-radius 10px 10px 10px;
     font-size: 1.5rem;
     text-decoration: none;
   }
 
+  // Home Section
   #home {
     article {
       p {
@@ -319,12 +334,13 @@
       }
     }
 
+    // Gallery Styles
     .gallery {
       flex-direction: column;
 
       &__column {
         flex-direction: row;
-        width: 100%;
+        width: 1500%;
 
         &__card {
           margin: 10px;
@@ -339,19 +355,19 @@
       }
     }
 
+    // News Container Styles
     .news-container {
-      margin-top: 50px;
+      margin-top: 30px;
 
       ul {
         & > li {
-
           .news {
             position: relative;
             width: 90%;
 
             &__image {
               position: absolute;
-              top : 10px;
+              top: 10px;
               left: 10px;
               aspect-ratio: 7.5 / 10;
               width: 80px;

@@ -1,11 +1,11 @@
 [
   {
     "id": "About-A1",
-    "title": "Friends of Grace Ethiopian evangelical church",
+    "title": "OUR PURPOSE",
     "text": [
       {
         "id": "About-A1P1",
-        "paragraph": "<p>The association 'Friends of Grace Ethiopian evangelical church' aims to contribute to the enhancement and maintenance of the church in the community.</p><br/><br/><ul><li><p>It serves as a tool to carry out restoration work on this communal heritage in coordination with the church leadership and the local community.</p></li><br/><li><p>The association's mission includes promoting the protection of furniture, whether listed in the inventory of historical significance or not. It also involves renovation or replacement initiatives in collaboration with the church leadership.</p></li><br/><li><p>[Your SDA Church Name] also positions itself as a source of ideas and proposes initiatives for significant renovations of the property. All projects require the support of the local community and approval from the church leadership.</p></li></ul><br/><br/><p>All these projects can only be realized with the support of the local community and with the approval of the Church leadership.</p>"
+        "paragraph": "<p>The purpose of Grace Ethiopian Evangelical Church (GEEC) is to introduce people to the saving grace of the Lord Jesus Christ. We are a community of believers drawn by the grace of the Lord to the fellowship of Christ through faith in what Jesus Christ has done on the cross for each one of us. We strive to get deeply rooted in the knowledge of the eternal Word of God and live out God's Word in our lives.</p>"
       }
     ],
     "images": [],
@@ -13,59 +13,21 @@
   },
   {
     "id": "About-A2",
-    "title": "Three Principles as a Guide for Action",
+    "title": "OUR STATEMENT OF FAITH",
     "text": [],
     "images": [],
     "section": [
       {
         "id": "About-A2S1",
         "display": "enable",
-        "title": "Faithful Living Principle",
+        "title": "We Believe",
         "text": [
           {
             "id": "About-A2S1P1",
-            "paragraph": "<p>Grace Ethiopian evangelical church emphasizes a commitment to faithful living, respecting the heritage of the past while embracing a vibrant present. It focuses on spiritual beauty accessible to everyone, symbolizing the transition from history to a living present.</p>"
-          }
-        ],
-        "images": [
-          {
-            "id": "About-A2S1I1",
-            "url": "/About/photo-2.jpeg",
-            "title": "Members Engaging in Worship",
-            "alt": "Members Engaging in Worship"
-          }
-        ]
-      },
-      {
-        "id": "About-A2S2",
-        "display": "enable",
-        "title": "Architectural Principle",
-        "text": [
-          {
-            "id": "About-A2S2P1",
-            "paragraph": "<p> Grace Ethiopian evangelical church follows an architectural principle emphasizing the use of light as both an architectural and theological component. The journey from entrance to altar symbolizes the believer's progression from shadow to light, enriching the worship experience.</p>"
+            "paragraph": "<p>We believe:</p>\n<ul>\n  <li>in one GOD, Creator of all things, infinitely perfect and eternally existing in three persons, the Father, the Son, and the Holy Spirit,</li>\n  <li>that JESUS CHRIST is true God and true man, having been conceived of the Holy Ghost and born of the Virgin Mary.  He died on the Cross as a sacrifice for our sins according to the Scriptures.  He arose bodily from the dead, ascended into heaven where, at the right hand of the Majesty on high, and He is now our High priest and Advocate,</li>\n  <li>that Jesus Christ is the only Mediator between God and human beings,</li>\n  <li>that the shed BLOOD OF JESUS CHRIST and His resurrection provide the only ground for justification and salvation for all who believe, and those who receive Jesus Christ are born of the Holy Spirit, and thus become children of God,</li>\n  <li>in the personal and imminent COMING of OUR LORD JESUS CHRIST to establish His kingdom; he will raise the dead and judge all human beings; the wicked shall be separated from God's presence, but the righteous shall live with Him forever and that this \"BLESSED HOPE\" has a vital bearing on the personal life and services of the believer,</li>\n  <li>that the HOLY SPIRIT works in the lives of believers with all His gifts,</li>\n  <li>that the ministry of the HOLY SPIRIT is to glorify the Lord Jesus Christ and, during this age, to convict men, regenerate the believing sinner, indwell, guide, instruct and empower the believer for godly living and service,</li>\n  <li>that MAN was created in the image of God but fell into sin and is, therefore, lost and only through regeneration of the Holy Spirit can salvation and spiritual life be obtained,</li>\n  <li>that the TRUE CHURCH is composed of all such persons who, through saving faith in Jesus Christ, have been regenerated by the Holy Spirit and are united together in the body of Christ of which He is the Head,</li>\n  <li>that WATER BAPTISM and the LORD'S SUPPER are ordinances to be observed by the Church during the present age but they are, however, not to be regarded as a means of salvation,</li>\n  <li>in the bodily resurrection of the dead; of the believer to the everlasting blessedness and joy with the Lord, of the unbeliever to judgment and everlasting conscious punishment,</li>\n  <li>in the SCRIPTURES, both Old and New Testaments, to be the inspired word of God, without error on the original writings, the complete revelation of His will for the salvation of men and the Divine and final authority for Christian faith and life.</li>\n</ul>"
           }
         ],
         "images": []
-      },
-      {
-        "id": "About-A2S3",
-        "display": "enable",
-        "title": "Worship Experience Principles",
-        "text": [
-          {
-            "id": "About-A2S3P1",
-            "paragraph": "<p>From the entrance to the worship area, Grace Ethiopian evangelical church creates spaces for fellowship, dialogue, and cultural enrichment. The layout encourages believers and non-believers to engage with various elements, from stained glass to Stations of the Cross, fostering a meaningful worship experience.</p>"
-          }
-        ],
-        "images": [
-          {
-            "id": "About-A2S3I1",
-            "url": "/About/photo-3.jpeg",
-            "title": "Stained Glass",
-            "alt": "Stained Glass"
-          }
-        ]
       }
     ]
   }

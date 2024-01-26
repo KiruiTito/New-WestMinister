@@ -5,11 +5,11 @@ function Contact() {
   const responseStyle = {};
   return (
     <>
-      <div className="container-fluid px-lg-5 row">
-        <div className="col-12 col-md-7 px-lg-5">
+      <div className="container-fluid row">
+        <div className="col-md-7 col-12 first px-lg-5">
           <i className="fas fa-user icon" />
-          <h2 className="h2 fw-bold">Contact Us</h2>
-          <form className="d-flex flex-column mt-3 mb-4 px-lg-5">
+          <h2 className="h2">Contact Us</h2>
+          <form className="">
             <label htmlFor="name" className="custom-label form-label mb-3">
               Name:
               <input
@@ -52,33 +52,33 @@ function Contact() {
             </button>
           </form>
         </div>
-        <div className="col-md-5 column">
+        <div className="col-md-5 col-12 column">
           <div className="contact-info">
-            <h2 className="mb-3 h2 fw-bold">Contact Information</h2>
+            <h2 className="fw-bold">Contact Information</h2>
             <i className="fas fa-map-marker-alt icon" />
-            <p className="mb-2">
+            <p className="mb-2 first">
               <strong className="text-white">Address: </strong>
-              <strong className="small fw-light text-white">123 Main St, City, Country</strong>
+              <strong className="small fw-light text-white"> 7895 Canada Way, Burnaby, BC</strong>
             </p>
             <i className="fas fa-envelope icon" />
             <p className="mb-2">
-              <strong className="text-white">Email: </strong>
+              <strong className="text-white">contact: </strong>
               <a href="mailto:info@example.com" style={{ color: "rgb(147 197 253)" }}>
-                <strong className="small fw-light"> info@example.com</strong>
+                <strong className="small fw-light">+1 604 553-3536</strong>
               </a>
             </p>
             <i className="fas fa-globe icon" />
             <p className="mb-4">
               <strong className="text-white">Website: </strong>
               <a
-                href="http://www.example.com"
+                href="http://www.example.ca"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "rgb(147 197 253)" }}>
-                www.example.com
+                https://geecvancouver.ca/
               </a>
             </p>
-            <p className="small text-white">
+            <p className="small text-white last">
               Feel free to contact us for any inquiries or assistance.
             </p>
           </div>

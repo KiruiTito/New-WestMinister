@@ -1,4 +1,3 @@
-// Church.jsx
 import React from "react";
 import "./church.scss";
 
@@ -35,9 +34,25 @@ function Church() {
         <div className="contact">
           <h2>Contact:</h2>
           <p>
-            Email: <a href="mailto:your@email.com">your@email.com</a>
+            Email: <a href="mailto:your@email.ca">geevancouver.ca</a>
           </p>
         </div>
+
+        {/* New Give/Tithe Section */}
+        <div className="give-tithe">
+          <h2>Give/Tithe by PayPal</h2>
+          <p>
+            Your generous contributions help support the ministry and outreach programs of our
+            church. Consider giving/tithing securely through PayPal.
+          </p>
+          <a
+            href="https://www.paypal.com/donate?token=biRyj9yXkKa9zRSWptsAoifdwQqe3dAP-MYm38d8Jg0XU66F0ewvDAVqrwHzXNV7tWBR_TALW4oI-3Iu"
+            target="_blank"
+            rel="noopener noreferrer">
+            Donate with PayPal
+          </a>
+        </div>
+        {/* End of Give/Tithe Section */}
       </div>
     </section>
   );

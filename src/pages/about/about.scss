@@ -5,53 +5,55 @@
   #about {
     flex-direction: column;
   }
-  
+
   #About-A2 {
-    .article{
-      &__textarea{
+    .article {
+      &__textarea {
         position: relative;
         &__sections div {
           display: flex;
+          flex-wrap: wrap;
           justify-content: space-around;
-  
+
           .section {
-            width: 30%;
+            width: 100%;
 
             &__images {
               position: absolute;
               width: 300px;
             }
-  
+
             &__textarea {
               justify-content: flex-start;
               width: 100%;
+
+              ul {
+                list-style-type: disc;
+                padding-left: 20px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+              }
+
+              li {
+                margin-bottom: 10px;
+              }
             }
           }
         }
       }
     }
   }
-  
-  #About-A2S1 {
-    margin-top: 0;
 
-    .section__images {
-      top: 20px;
-      right: 50px;
-    }
-  }
-  
-  #About-A2S2 {
-    margin-top: 300px;
-  }
-  
+  #About-A2S1,
+  #About-A2S2,
   #About-A2S3 {
-    margin-top: 600px;
+    margin-top: 20px;
 
     .section__images {
-      top: 765px;
-      left: 50px;
+      position: relative;
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
     }
   }
-
 }

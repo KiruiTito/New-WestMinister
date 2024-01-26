@@ -1,22 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 import ImageSlider from "../../components/slider/slider";
-import SLIDES from "../../assets/slides.json";
 import NewsLetter from "../../assets/newsletter.json";
 import News from "../../assets/news.json";
 import "./index.scss";
-
-const groupedItems = SLIDES.home.reduce(
-  (acc, item) => {
-    if (acc[acc.length - 1].length >= 3) {
-      return [...acc, [item]];
-    }
-    acc[acc.length - 1].push(item);
-    return acc;
-  },
-  [[]]
-);
 
 function Home() {
   const domain = "/newsletter/";
@@ -24,7 +12,8 @@ function Home() {
   const lastNewsletter = NewsLetter[NewsLetter.length - 1];
   const [open, setOpen] = useState(0);
   const [slideIndex, setSlideIndex] = useState(0);
-  const navigate = useNavigate();
+
+  const groupedItems = [[]]; // Replace this with your logic for grouped items
 
   useEffect(() => {
     if (open === 1) {
@@ -32,14 +21,10 @@ function Home() {
     }
   }, [open]);
 
-  const handleClick = (slide) => {
-    const index = SLIDES.home.findIndex((slides) => slides === slide);
-    setSlideIndex(index);
+  const handleClick = () => {
+    // Replace this with your logic to handle click
+    setSlideIndex(0);
     setOpen(1);
-  };
-
-  const handleClickNavigate = () => {
-    navigate("/newsletter"); // Navigates to the "/newsletter" route
   };
 
   return (
@@ -47,13 +32,13 @@ function Home() {
       <div className="container">
         <article>
           <h3 id="welcome" className="full-screen">
-            Welcome to Grace Ethiopian Evangelical Church ofBurnaby, British Columbia, Canada.
+            WELCOME TO GRACE EVANGELICAL CHURCH
           </h3>
         </article>
         <div className="carousel">
           <div className="gallery full-screen d-flex justify-content-center">
             {groupedItems.map((column) => (
-              <div className="gallery__column" key={Math.random()}>
+              <div className="gallery__column" key={column}>
                 {column.map((slide) => (
                   <button
                     className="gallery__column__card no-style-btn"
@@ -78,10 +63,10 @@ function Home() {
               </div>
             ))}
           </div>
-          <ImageSlider slidesImages={SLIDES.home} openSlider={open} startSlide={slideIndex} />
+          <ImageSlider slidesImages={groupedItems} openSlider={open} startSlide={slideIndex} />
         </div>
         <div className="news-container">
-          <h3 className="title">CURRENT EVENTS IN OUR CHURCH</h3>
+          <h3 className="title">OUR MESSAGE</h3>
           <ul className="news-list d-flex">
             {News.map((news) => {
               if (news.enable === "enable") {
@@ -124,12 +109,7 @@ function Home() {
               </div>
             </div>
           </Link>
-          <button
-            className="btn btn--navigate no-style-btn"
-            type="button"
-            onClick={handleClickNavigate}>
-            More Newsletters
-          </button>
+          {/* Removed the "More Newsletters" button */}
         </div>
       </div>
     </main>

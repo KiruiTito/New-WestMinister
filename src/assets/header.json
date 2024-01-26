@@ -14,29 +14,16 @@
   {
     "id": "L2",
     "enable": "enable",
-    "name": "THE ASSOCIATION",
-    "title": "THE ASSOCIATION",
+    "name": "ABOUT",
+    "title": "ABOUT",
     "subhead": "",
-    "description": "The Friends of Sainte Madeleine de La Jarrie association aims to be a tool in the service of the church and the municipality to carry out restoration work on furniture and the protection of heritage.",
-    "path": "/association",
-    "sublinks": [
-
-    ],
+    "description": "The purpose of Grace Ethiopian Evangelical Church (GEEC) is to introduce people to the saving grace of the Lord Jesus Christ. We are a community of believers drawn by the grace of the Lord to the fellowship of Christ through faith in what Jesus Christ has done on the cross for each one of us. We strive to get deeply rooted in the knowledge of the eternal Word of God and live out God's Word in our lives.",
+    "path": "/about",
+    "sublinks": [],
     "type": "small",
     "url": "/banners/Banner-5.jpeg"
   },
-  {
-    "id": "L3",
-    "enable": "enable",
-    "name": "OUR ACHIEVEMENTS",
-    "title": "OUR ACHIEVEMENTS",
-    "subhead": "",
-    "description": "",
-    "path": "/our-achievements",
-    "sublinks": [],
-    "type": "small",
-    "url": "/banners/Banner-6.jpg"
-  },
+
   {
     "id": "L4",
     "enable": "enable",
@@ -45,8 +32,7 @@
     "subhead": "",
     "description": "Church located in the municipality of La Jarrie, built in the 12th century.",
     "path": "/church",
-    "sublinks": [
-    ],
+    "sublinks": [],
     "type": "small",
     "url": "/banners/Banner-2.jpg"
   },
@@ -73,30 +59,5 @@
     "sublinks": [],
     "type": "small",
     "url": "/banners/Banner-11.jpg"
-  },
-  {
-    "id": "Error-404",
-    "enable": "disable",
-    "name": "404",
-    "title": "",
-    "subhead": "",
-    "description": "Church of La Jarrie",
-    "path": "/404",
-    "sublinks": [],
-    "type": "none",
-    "url": ""
-  },
-  {
-    "id": "Error",
-    "enable": "disable",
-    "name": "404",
-    "title": "",
-    "subhead": "",
-    "head": "404 | Page Not Found",
-    "description": "Church of La Jarrie",
-    "path": "*",
-    "sublinks": [],
-    "type": "none",
-    "url": ""
   }
 ]

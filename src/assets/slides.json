@@ -9,10 +9,11 @@
   ],
   "home": [
     {
-      "id": "Slide-Home-1",
-      "title": "Grace Ethiopian Evangelical Church",
-      "alt": "The Church",
-      "url": "/slides/home/photo-1.jpg"
+      "id": "Slide-Home-Hymn",
+      "title": "Trust and Obey",
+      "alt": "Hymn Chorus",
+
+      "text": "Trust and obey, for there's no other way, to be happy in Jesus, but to trust and obey."
     }
   ]
 }
